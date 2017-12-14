@@ -29,21 +29,3 @@ li {
 body {
   font-size: 24px;
 }
-
-.jumbotron{
-	position: relative;
-	background-color: #ccc;
-}
-
-.jumbotron h1{
-	padding-top: 40px;
-	text-align: center;
-	font-size: 90px;
-	font-weight: bold;
-	padding: 70px 0 20px 0; 
-}
-
-.jumbotron h2{
-	text-align: center;
-	font-size: 30px;
-}

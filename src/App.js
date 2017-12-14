@@ -1,7 +1,9 @@
 //newj
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
 import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
+import FriendCard from "./components/FriendCard";
+import Footer from "./components/Footer";
 import friends from "./friends.json";
 import "./App.css";
 
@@ -58,6 +60,7 @@ class App extends Component {
         <Navbar 
           score={this.state.score}
         />
+        <Jumbotron />
         <div className="wrapper">
           {this.state.friends.map(friend => (
             <FriendCard
@@ -68,6 +71,7 @@ class App extends Component {
             />
           ))}
         </div>
+        <Footer />
       </div>
     );
   }

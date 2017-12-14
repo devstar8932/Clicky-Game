@@ -1,18 +1,17 @@
-/*newj*/
 .navbar li {
   display: inline-block;
   text-align: center;
 }
 
-.item1 {
+.itemLeft {
   width: 15%;
 }
 
-.item2 {
+.itemCenter {
 	width: 70%;
 }
 
-.item3 {
+.itemRight {
   width: 15%;
 }
 

@@ -1,4 +1,4 @@
-// newj
+//sets up the reusable FriendCard component
 import React from "react";
 import "./FriendCard.css";
 

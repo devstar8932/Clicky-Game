@@ -1,4 +1,4 @@
-// new2
+//sets up the reusable Navbar component
 import React, { Component } from "react";
 import "./Navbar.css";
 
@@ -7,9 +7,9 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-default navbar-fixed-top">
          <ul>
-          <li className="item1">Memory Game</li>
-          <li className="item2"></li>
-          <li className="item3">Score: {this.props.score}</li>
+          <li className="itemLeft">Memory Game</li>
+          <li className="itemCenter"></li>
+          <li className="itemRight">Score: {this.props.score}</li>
         </ul>
       </nav>
     );

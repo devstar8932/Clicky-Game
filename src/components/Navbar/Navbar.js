@@ -1,15 +1,27 @@
-import React from "react";
+// new2
+import React, { Component } from "react";
 import "./Navbar.css";
 
-const Navbar = () => (
-	<nav className = "navbar">
-		<ul>
-			<li className="brand"><a href="/">Clicky Game</a>
-			</li>
-			<li className="guess">Click an image to begin!</li>
-			<li className="score">Score: | Top score:</li>
-		</ul>	
-	</nav>
-	);
+class Navbar extends Component {
+  render() {
+    return (
+     <div> 
+      <nav className="navbar navbar-default navbar-fixed-top">
+         <ul>
+          <li className="item1">Memory Game</li>
+          <li className="item2"></li>
+          <li className="item3">Score: {this.props.score}</li>
+        </ul>
+      </nav>
+
+      <div className="jumbotron">
+        <h1>Clicky Game!</h1>
+        <h2>Click on an image to earn points, but don't click on the same picture more than once.</h2>
+      </div>
+
+      </div>
+    );
+  }
+}
 
 export default Navbar;

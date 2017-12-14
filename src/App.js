@@ -9,24 +9,24 @@ const App = () => (
     <Navbar />
     <Header />
     <div>
-	    <Container />
-    	<Container />
-    	<Container />
-    	<Container />    	
-    </div>	
+      <Container image={"././public/images/angelfish"} />
+      <Container />
+      <Container />
+      <Container />     
+    </div>  
     <div>
-	    <Container />
-    	<Container />
-    	<Container />
-    	<Container />    	
-    </div>	
+      <Container />
+      <Container />
+      <Container />
+      <Container />     
+    </div>  
     <div>
-	    <Container />
-    	<Container />
-    	<Container />
-    	<Container />    	
-    </div>	
-	<Footer />
+      <Container />
+      <Container />
+      <Container />
+      <Container />     
+    </div>  
+  <Footer />
   </div>
 );
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Container.css";
 
-// const Container = () => ( ... thinkk this should be a state since img will change
+// class Container extends React.Components { ... state change
 
 const Container = props => (
  <div className="card">

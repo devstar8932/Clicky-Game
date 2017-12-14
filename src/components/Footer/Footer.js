@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => (
 	<header className = "footer">
-		<p>GAMES BY KIM</p>
+		<p>GAME BY KIM</p>
 	</header>
 );
 

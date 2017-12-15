@@ -30,6 +30,7 @@ class App extends Component {
         clickedFish: [],
         score: 0
       });
+        alert("You lose. Play again?");
 
 //if you click on an available fish, your score is increased and cards reordered
     } else {

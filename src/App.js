@@ -44,7 +44,7 @@ class App extends Component {
           ),
           score: this.state.score + 1
         },
-//if you get all 12 fish corrent you get a congrats message and game resets        
+//if you get all 12 fish corrent you get a congrats message and the game resets        
         () => {
           if (this.state.score === 12) {
             alert("Yay! You Win!");
